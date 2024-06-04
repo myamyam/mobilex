@@ -25,7 +25,7 @@ class InputModel(BaseModel):
         '홈런',
         '달리기',
     ] = Field(
-        default='Random',
+        default='안타',
     )
     llm_type: Literal['chatgpt', 'huggingface'] = Field(
         alias='Large Language Model Type',

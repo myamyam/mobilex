@@ -13,7 +13,7 @@ class InputModel(BaseModel):
         '중독성 있는',
         '신나는',
         '벅찬',
-        '웅장한',
+        '웅장한',   
     ] = Field(
         default='중독성 있는',
     )
