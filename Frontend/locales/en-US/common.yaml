@@ -1,7 +1,8 @@
 ---
-title: Welcome to the MobileX Experience Lab!
+title: Welcome to the CheerBeat!
 description: |
-  Using the MobileX infrastructure, you can conveniently learn from front-end, back-end, AI, and service deployment.
-
-  Use the menu window on the left to experience various examples!
-github: https://github.com/HoKim98/mobilex-exp
+  Using the Lyrics Generator, you can conveniently make your cheersong lyrics!
+  Use the menu window on the left.
+  You can make your song using suno below.
+github: https://github.com/myamyam/mobilex
+suno : https://suno.com
