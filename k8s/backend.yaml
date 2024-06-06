@@ -20,14 +20,14 @@ spec:
       containers:
         - name: server
           # TODO(user): change to your image
-          image: quay.io/ulagbulag/mobilex-exp-backend:v0.7
+          image: docker.io/jiseongggg/mobilex-backend:v0.1
           env:
             - name: BASE_URL
               value: /api/v1
             - name: OPENAI_API_KEY
               valueFrom:
                 secretKeyRef:
-                  name: openai
+                  name: api
                   key: OPENAI_API_KEY
                   optional: true
           ports:

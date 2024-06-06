@@ -13,6 +13,7 @@ if __name__ == '__main__':
 
     # Show page description
     st.write(i18n.t('common.description'))
-
+    
     # Show github link
     st.write(f'* Github: {i18n.t('common.github')}')
+    st.write(f'* Suno: {i18n.t('common.suno')}')
